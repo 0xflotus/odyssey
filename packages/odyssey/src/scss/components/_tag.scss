@@ -1,0 +1,22 @@
+.ods-tag {
+  padding: 0 $em-tiny-spacing;
+  border-radius: $base-border-radius;
+  background: cv('gray', '100');
+  color: $text-body;
+}
+
+.ods-tag--button {
+  position: relative;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: inherit;
+  white-space: nowrap;
+
+  &::before {
+    content: 'x';
+  }
+}
