@@ -46,5 +46,3 @@ This variant includes a button that allows the Tag to be removed by a user. When
   </ul>
   ```
 </figure>
-
-### Color Tags
