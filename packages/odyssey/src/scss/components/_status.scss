@@ -24,9 +24,9 @@
   }
 }
 
-.is-ods-status-alert {
+.is-ods-status-caution {
   &::before {
-    background-color: cv('alert', 'base');
+    background-color: cv('caution', 'base');
   }
 }
 

@@ -6,7 +6,7 @@ The Status component is used to indicate the state of a system, process, or item
   <div class="nimatron--rendered">
     <span class="ods-status is-ods-status-neutral">Neutral</span>
     <span class="ods-status is-ods-status-success">Success</span>
-    <span class="ods-status is-ods-status-alert">Alert</span>
+    <span class="ods-status is-ods-status-caution">Caution</span>
     <span class="ods-status is-ods-status-danger">Danger</span>
   </div>
 </figure>
@@ -43,17 +43,17 @@ Success Statuses are green and should be used to indicate states like Complete, 
   ```
 </figure>
 
-### Alert
+### Caution
 
-Alert Statuses are yellow and should be used to indicate states like Attention Suggested or Service Degradation.
+Caution Statuses are yellow and should be used to indicate states like Attention Suggested or Service Degradation.
 
 <figure class="nimatron--example">
   <div class="nimatron--rendered">
-    <span class="ods-status is-ods-status-alert">Service Degradation</span>
+    <span class="ods-status is-ods-status-caution">Service Degradation</span>
   </div>
 
   ```html
-  <span class="ods-status is-ods-status-alert">Service Degradation</span>
+  <span class="ods-status is-ods-status-caution">Service Degradation</span>
   ```
 </figure>
 
