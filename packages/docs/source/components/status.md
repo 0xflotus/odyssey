@@ -13,6 +13,17 @@ The Status component is used to indicate the state of a system, process, or item
 
 ## Usage
 
+- Supporting label (pull from Figma)
+- Statuses per page/item/view
+
+### Labeled
+
+- build .ods-status-label
+
+### Unlabaled
+
+## Variants
+
 The semantic states, colors they're associated with, and example use cases are as follows:
 
 ### Neutral
@@ -21,11 +32,11 @@ Neutral Statuses are gray and should be used to indicate states like Paused, Not
 
 <figure class="nimatron--example">
   <div class="nimatron--rendered">
-    <span class="ods-status is-ods-status-neutral">Service Paused</span>
+    <span class="ods-status is-ods-status-neutral">Service paused</span>
   </div>
 
   ```html
-  <span class="ods-status is-ods-status-neutral">Service Paused</span>
+  <span class="ods-status is-ods-status-neutral">Service paused</span>
   ```
 </figure>
 
@@ -35,11 +46,11 @@ Success Statuses are green and should be used to indicate states like Complete, 
 
 <figure class="nimatron--example">
   <div class="nimatron--rendered">
-    <span class="ods-status is-ods-status-success">Service Operational</span>
+    <span class="ods-status is-ods-status-success">Service operational</span>
   </div>
 
   ```html
-  <span class="ods-status is-ods-status-success">Service Operational</span>
+  <span class="ods-status is-ods-status-success">Service operational</span>
   ```
 </figure>
 
@@ -49,11 +60,11 @@ Caution Statuses are yellow and should be used to indicate states like Attention
 
 <figure class="nimatron--example">
   <div class="nimatron--rendered">
-    <span class="ods-status is-ods-status-caution">Service Degradation</span>
+    <span class="ods-status is-ods-status-caution">Service degradation</span>
   </div>
 
   ```html
-  <span class="ods-status is-ods-status-caution">Service Degradation</span>
+  <span class="ods-status is-ods-status-caution">Service degradation</span>
   ```
 </figure>
 
@@ -63,13 +74,19 @@ Danger Statuses are red and should be used to indicate states like Error, Failur
 
 <figure class="nimatron--example">
   <div class="nimatron--rendered">
-    <span class="ods-status is-ods-status-danger">Service Disruption</span>
+    <span class="ods-status is-ods-status-danger">Service disruption</span>
   </div>
 
   ```html
-  <span class="ods-status is-ods-status-danger">Service Disruption</span>
+  <span class="ods-status is-ods-status-danger">Service disruption</span>
   ```
 </figure>
+
+## Content guidelines
+
+- word count
+- capitalization
+- description of state
 
 ## Accessibility
 
@@ -79,10 +96,10 @@ If the current state of Status may change asynchronously while a user is visitin
 
 <figure class="nimatron--example">
   <div class="nimatron--rendered">
-    <span class="ods-status is-ods-status-success" role="status">Things are good but that might change</span>
+    <span class="ods-status is-ods-status-success" role="status">System operational (for now)</span>
   </div>
 
   ```html
-  <span class="ods-status is-ods-status-success" role="status">Things are good but that might change</span>
+  <span class="ods-status is-ods-status-success" role="status">System operational (for now)</span>
   ```
 </figure>

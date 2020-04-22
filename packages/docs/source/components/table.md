@@ -404,6 +404,8 @@ Note that the use of <code>colspan</code> or <code>rowspan</code> may cause acce
 
 The basic table styling is based on what is most legible and scannable for a normal string of text. However, different data types may require alternate styling. Currently, we provide three variant styles and will add more as necessary.
 
+- Add Status as available, rules: requires no special styling, but does require a unique column
+
 #### Numerical data
 
 If the data in a column consists primarily of figures or numerical data, you can utilize the <code>.is-ods-table-num</code> class. It's been applied to the above examples in order to ensure tabular number display and right-align the figures for easy comparison.
