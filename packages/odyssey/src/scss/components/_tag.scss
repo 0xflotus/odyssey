@@ -1,13 +1,18 @@
 .ods-tag {
+  display: inline-block;
   padding: 0 $em-tiny-spacing;
   border-radius: $base-border-radius;
   background: cv('gray', '100');
   color: $text-body;
 }
 
+.ods-tag--list {
+  list-style-type: none;
+}
+
 .ods-tag--button {
   position: relative;
-  padding: 0;
+  padding: 0 0 0 $small-spacing;
   border: 0;
   background: none;
   font-family: inherit;
@@ -17,6 +22,12 @@
   white-space: nowrap;
 
   &::before {
-    content: 'x';
+    content: '';
+    display: inline-block;
+    width: 0.5em;
+    height: 0.5em;
+    background-image: get-icon('x', $text-body);
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
